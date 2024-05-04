@@ -1,0 +1,20 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+canvas {
+    border: 1px solid black; /* Add a black border to the canvas */
+}
+
+#scoreDisplay, #livesDisplay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: black; /* Set text color to black */
+}
